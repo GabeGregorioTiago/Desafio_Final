@@ -36,8 +36,8 @@ export const HEADER = styled.header`
  }
 `;
 export const BUTTON = styled.button`
-    width:3vw;
-    height:6vh;
+    width:2.5vw;
+    height:2.5vw;
     border:none;
     margin-left:14vw;
     font-size:4vh;
@@ -45,9 +45,12 @@ export const BUTTON = styled.button`
     background-color:#42403f;
     @media  screen and (min-width: 360px) and (max-width: 480px){
 
-      width:15vw;
+      width:11vw;
+      height:11vw;
+      border-radius:25px 25px 25px 25px;   
       margin-left:25vw;
       font-size:5vh;
+     
    }
 `;
 export const IMG = styled.img`

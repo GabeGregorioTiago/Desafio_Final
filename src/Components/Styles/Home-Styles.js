@@ -26,7 +26,7 @@ export const DIVONE = styled.div`
     button{
            display:flex;
            align-items: center;
-   justify-content: space-around;
+         justify-content: space-around;
            border:solid black;
          background-color:transparent;
         height:10vh;
@@ -91,6 +91,7 @@ export const DIVTWO = styled.div`
      opacity:0.6;
      margin-top:5vh;
      margin-left:8vw;
+     margin-bottom:2vh;
 
   }
   @media  screen and (min-width: 360px) and (max-width: 480px){
