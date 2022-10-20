@@ -4,7 +4,7 @@ import Image from "../Figures/FotoUM.png"
 import C from "../Figures/c.png"
 import Cplus from "../Figures/cplus.png"
 import CSS from "../Figures/css.png"
-
+import Curriculo from "../Curriculo_Gabriel_Silva_Gregorio_Pereira_Tiago.pdf"
 const Home =()=>{
     
  
@@ -12,10 +12,10 @@ const Home =()=>{
          
               <S.BODY>
                  <S.DIVTWO>
-                   <h5>Hello!</h5>
-                   <h1>I'm Gabriel</h1>
-                   <p>Welcome to my portfolio</p>
-                   <button>VIEW RESUME</button>
+                   <h5>Olá!</h5>
+                   <h1>Eu sou o Gabriel</h1>
+                   <p>Bem-Vind@ ao meu portifólio</p>
+                   <button><a href={Curriculo} download="Curriculo-Gabriel.pdf">Currículo</a></button>
                     <div>
                        <p>Habilidades em programação</p>
                        <S.FIGURE>
@@ -29,7 +29,7 @@ const Home =()=>{
                      <S.FIGURETWO>
                          <img src={Image}/>
                      </S.FIGURETWO>
-                     <button>VIEW RESUME</button>
+                     <button><a href={Curriculo} download="Curriculo-Gabriel.pdf">Currículo</a></button>
                      <S.DIVTHREE>
                        <p>Habilidades em programação</p>
                        <S.FIGURE>

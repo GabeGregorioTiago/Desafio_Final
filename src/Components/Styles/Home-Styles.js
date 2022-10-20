@@ -36,6 +36,21 @@ export const DIVONE = styled.div`
             margin-top:4vh;
            margin-left:15vw;
            font-size:2.5vh;
+             &:hover{
+      opacity:1;
+      transition:ease-in-out;
+      cursor: pointer;
+    }
+        }
+        a{
+          color:white;
+          font-size:3vh;
+          
+            &:hover{
+            opacity:1;
+            transition:ease-in-out;
+            cursor: pointer;
+          }
         }
   
   }
@@ -92,7 +107,18 @@ export const DIVTWO = styled.div`
      margin-top:5vh;
      margin-left:8vw;
      margin-bottom:2vh;
+     &:hover{
+      opacity:1;
+      transition:ease-in-out;
+      cursor: pointer;
+    }
 
+  }
+  a{
+    color:white;
+    font-size:3vh;
+          
+   
   }
   @media  screen and (min-width: 360px) and (max-width: 480px){
     

@@ -77,6 +77,12 @@ list-style: none;
         padding-top:2vh;
         margin-left:1vw;
         color:white;
+        opacity:0.8;
+        &:hover{
+          opacity:1;
+          transition:ease-in-out;
+          cursor: pointer;
+        }
       }
     @media  screen and (min-width: 360px) and (max-width: 480px){
         li{
@@ -95,7 +101,8 @@ export const LINK = styled(Link)`
   width:7vw;
    color:white;
    img{
-    width:1.7vw;
+    width:1.
+    vw;
     height:3.5vh;
   }
   @media  screen and (min-width: 360px) and (max-width: 480px){
@@ -103,8 +110,8 @@ export const LINK = styled(Link)`
      width:30vw;
      margin-left:0vw;
      img{
-      width:8vw;
-      height:4vh;
+      width:7vw;
+      height:3vh;
     }
     p{
       font-size:3vh;
@@ -114,12 +121,12 @@ export const LINK = styled(Link)`
 `
 
 export const IMGTWO = styled.img`
-     width:1.5vw;
+     width:1.6vw;
     height:3.5vh;
     margin-left:1vw;
     @media  screen and (min-width: 360px) and (max-width: 480px){
-      height:4vh;
-      width:9vw;
+      height:3.5vh;
+      width:7vw;
       margin-left:3vw;
      
  
